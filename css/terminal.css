@@ -18,3 +18,28 @@ iframe {
   width: 100%;
 }
 button { cursor: pointer; }
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+}
+nav li { float: right; }
+nav li a {
+  text-align: center;
+  padding: 10px;
+}
+nav li a:link, nav li a:visited {
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover, nav li a.active {
+  color: skyblue;
+  text-decoration: underline;
+}
+main section a:link, main section a:visited {
+  color: #0056B3;
+  text-decoration: none;
+}
+main section a:hover { text-decoration: underline; }
