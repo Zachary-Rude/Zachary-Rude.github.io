@@ -50,11 +50,11 @@ main section a:hover { text-decoration: underline; }
 }
 @keyframes slide-to-left {
   from {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
 
   to {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
 .animate-right {
@@ -64,10 +64,11 @@ main section a:hover { text-decoration: underline; }
 }
 @keyframes slide-to-right {
   from {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 
   to {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
 }
+img[alt="My Linux Terminal"] { width: 20%; }
