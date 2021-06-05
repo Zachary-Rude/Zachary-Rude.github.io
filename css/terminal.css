@@ -43,3 +43,31 @@ main section a:link, main section a:visited {
   text-decoration: none;
 }
 main section a:hover { text-decoration: underline; }
+.animate-left {
+  animation-name: slide-to-left;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes slide-to-left {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+.animate-right {
+  animation-name: slide-to-right;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes slide-to-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
