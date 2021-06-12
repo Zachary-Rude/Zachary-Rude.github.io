@@ -74,7 +74,7 @@ main section a:hover { text-decoration: underline; }
 img[alt="My Linux Terminal"] { width: 20%; }
 button[onclick="open_python_shell()"] {
   font-family: 'Flux Regular', sans-serif;
-  background-color: #ffd343;
+  background-image: linear-gradient(#ffdf76 10%, #ffd343 90%);
   border-radius: .25rem;
   border: 2px solid #ffd343;
   font-size: 20px;
