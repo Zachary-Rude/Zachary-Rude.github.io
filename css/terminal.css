@@ -82,9 +82,9 @@ button[onclick="open_python_shell()"] {
   width: 5cm;
   height: 1.5cm;
 }
-input[type="checkbox"] { display: none; }
-img { cursor: zoom-in; }
-input[type="checkbox"]:checked ~ label > img {
+main section input[type="checkbox"] { display: none; }
+main section label img { cursor: zoom-in; }
+main section input[type="checkbox"]:checked ~ label > img {
   transform: scale(1.5);
   cursor: zoom-out;
 }
