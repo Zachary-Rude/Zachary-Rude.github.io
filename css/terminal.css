@@ -39,39 +39,11 @@ nav li a:hover, nav li a.active {
   color: skyblue;
   text-decoration: underline;
 }
-main section a:link, main section a:visited {
+a:link, a:visited {
   color: #0056B3;
   text-decoration: none;
 }
-main section a:hover { text-decoration: underline; }
-.animate-left {
-  animation-name: slide-to-left;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-@keyframes slide-to-left {
-  from {
-    transform: translateX(100%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-.animate-right {
-  animation-name: slide-to-right;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-@keyframes slide-to-right {
-  from {
-    transform: translateX(0%);
-  }
-
-  to {
-    transform: translateX(100%);
-  }
-}
+a:hover { text-decoration: underline; }
 img[alt="My Linux Terminal"] { width: 20%; }
 button[onclick="open_python_shell()"] {
   font-family: 'Flux Regular', sans-serif;
@@ -82,9 +54,9 @@ button[onclick="open_python_shell()"] {
   width: 5cm;
   height: 1.5cm;
 }
-main section input[type="checkbox"] { display: none; }
-main section label img { cursor: zoom-in; }
-main section input[type="checkbox"]:checked ~ label > img {
+input[type="checkbox"] { display: none; }
+img { cursor: zoom-in; }
+input[type="checkbox"]:checked ~ label > img {
   transform: scale(1.5);
   cursor: zoom-out;
 }
