@@ -34,6 +34,7 @@ nav li a {
 nav li a:link, nav li a:visited {
   color: white;
   text-decoration: none;
+  cursor: pointer !important;
 }
 nav li a:hover, nav li a.active {
   color: skyblue;
